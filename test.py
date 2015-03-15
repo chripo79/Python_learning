@@ -1,4 +1,4 @@
-import random
+from random import randint
 
 
 def hallo_welt():
@@ -7,9 +7,13 @@ def hallo_welt():
 
 
 def wuerfel():
-    return random.randint(1, 6)
+    return randint(1, 6)
+
+anzahl = int(raw_input('wieviele Wuerfel sollen geworfen werde?: '))
+i = 0
+
+while i < anzahl:
+    i += 1
+    print wuerfel()
 
 
-hallo_welt()
-print wuerfel()
-print wuerfel()
