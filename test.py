@@ -12,3 +12,4 @@ def wuerfel():
 
 hallo_welt()
 print wuerfel()
+print wuerfel()
