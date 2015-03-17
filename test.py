@@ -1,6 +1,5 @@
 from random import randint
 
-
 def hallo_welt():
     print "hallo Welt aus funktion"
     return True
